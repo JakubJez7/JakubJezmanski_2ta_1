@@ -263,7 +263,7 @@ color: #000000;}
   border-radius: 20px;
   max-width:90%;
   height:400px;
-  text-align: left;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;}
   .tabela tr td {border-width: 3px;border-color: black;border-style: ridge;}
   .link{display: block;
