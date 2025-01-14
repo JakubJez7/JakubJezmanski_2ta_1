@@ -1,0 +1,311 @@
+body{background-color: rgb(129, 17, 17);}
+.logo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 50, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px rgb(28, 71, 44);
+    box-sizing: border-box;
+    border: rgb(26, 155, 26) 6px groove;
+    animation-name: posun;
+    animation-duration: 2s;
+}
+.naglowek{margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 25px;
+    padding-top: 30px;
+    
+background-color: black;
+color:aliceblue;
+border-radius: 20px;
+max-width:1650px;
+height:200px;
+text-align: center;
+font-size: xx-large;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+       @keyframes posun {
+            
+        from{transform: translate(0,-400px)}
+       to{transform: translate(0,0);}
+       
+        }
+        
+
+
+
+
+    .glowny{margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 25px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    
+background-color: black;
+color:aliceblue;
+border-radius: 20px;
+max-width:1650px;
+height:20%;
+
+font-size: large;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+
+}
+@media(max-width:1199px) and (min-width:601px){.naglowek{margin-top: 160px;}
+}
+@media (max-width:1199px) and (min-width:601px){
+ 
+
+  .slideshow-container {
+      max-width: 100%;
+  }
+
+  .slideshow-container img {
+      width: 100%;
+      height: auto;
+  }
+}
+  
+
+
+
+@media (max-width: 600px) {
+ 
+
+  .slideshow-container {
+      max-width: 100%;
+  }
+
+  .slideshow-container img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+.glowny h1{color:aliceblue;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: x-large;font-weight: 1000;}
+.sidebar{background-color: #333;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    
+    
+    
+    padding-left: 5px;
+    padding-top: 7px;
+    animation-name: posun2;
+    animation-duration: 2.5s;
+
+}
+.sidebar h2{color:aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+}
+
+@keyframes posun2 {
+            
+    from{transform: translate(-200px,0)}
+   to{transform: translate(0,0);}
+   
+    }
+    
+    
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        
+
+
+      }
+      
+     
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      
+      .textblack {
+        color: #000000;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        
+        
+      }
+      
+
+      
+      
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        
+      }
+      
+      .active {
+        background-color: #717171;
+      }
+      
+      
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+      .trt{text-align: center;}
+      
+
+
+.bloki{margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+background-color: rgb(83, 6, 6);
+color:aliceblue;
+border-radius: 20px;
+max-width:1650px;
+height:70%;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+display: flex;flex-wrap: nowrap;
+flex-direction: column;
+
+
+
+}
+.bloki h3{text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 5px;font-size: larger;}
+
+
+.bloki2{margin-left: 20px;
+  margin-top: 50px;
+  margin-right: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+background-color: rgb(83, 6, 6);
+color:aliceblue;
+border-radius: 20px;
+max-width:fit-content;
+max-height:fit-content;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;}
+.tabela tr td {border-width: 3px;border-color: black;border-style: ridge;}
+.link{display: block;
+background-color: #000000;
+color: aliceblue;
+width: 80px;
+
+}
+.link:hover{background-color: aliceblue;
+color: #000000;}
+.link2{display: block;
+  background-color:#333;
+  color: aliceblue;
+  width: 150px;
+  line-height: 40px;
+  
+  }
+  .link2:hover{background-color: aliceblue;
+    color: #000000;}
+    .link2:visited{color: aliceblue;}
+
+    .opis{background-color: #333;color: aliceblue;max-width:fit-content;border-radius: 20px;padding: 15px 15px 10px 15px; max-height: 475px;margin-left: 20px;}
+    
+    
+    .bloki3{margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+  background-color: rgb(83, 6, 6);
+  color:aliceblue;
+  border-radius: 20px;
+  max-width:90%;
+  height:400px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;}
+  .tabela tr td {border-width: 3px;border-color: black;border-style: ridge;}
+  .link{display: block;
+  background-color: #000000;
+  color: aliceblue;
+  width: 80px;
+   
+} 
+  .bloki3 h3{text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 5px;font-size: larger;}
+  /* @media do menu */
+  @media all and (max-width: 600px){
+    .sidebar{position:static; width: 100%;}
+
+}
+@media all and (min-width: 601px) and (max-width: 1200px){
+  .sidebar{position:fixed; top: 0; width: 100%;height: 150px;
+  
+}
+.sidebar ul a li{display: inline;}
+}
+.stopka{margin-left: 20px;
+    margin-top: 90px;
+    margin-right: 25px;
+    padding-top: 100px;
+    padding-left: 30px;
+  background-color: rgb(0, 0, 0);
+  color:aliceblue;
+  border-radius: 20px;
+  max-width:100%;
+  height:200px;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 10px;
+}
+@media (min-width: 601px) and (max-width: 1200px){.bloki{
+max-width: 90%;max-height: fit-content;
+
+}
+
+
+}
+@media screen and (min-width:1200px){
+body{padding-left:220px}
+}
+.map{max-width:100%;}
